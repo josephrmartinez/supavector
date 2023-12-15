@@ -20,6 +20,7 @@
   "dependencies": {
     "@supabase/supabase-js": "^2.39.0",
     "dotenv": "^16.3.1",
+    "langchain": "^0.0.207",
     "openai": "^4.20.1"
   }
 }
