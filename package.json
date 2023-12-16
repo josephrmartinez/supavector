@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "start": "index.html",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server -o",
+    "dev": "npm start"
   },
   "repository": {
     "type": "git",
@@ -20,7 +22,9 @@
   "dependencies": {
     "@supabase/supabase-js": "^2.39.0",
     "dotenv": "^16.3.1",
-    "langchain": "^0.0.207",
-    "openai": "^4.20.1"
+    "openai": "^4.22.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
   }
 }
